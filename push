@@ -2,18 +2,4 @@ git add .
 git commit -m "$1"
 git push origin master
 
- git ftp push  --user prodigy-global.com --passwd Jasmin717440 ftp://ftp.prodigy-global.com/haulageplanner
- git ftp push  --user trucknet --passwd Jasmin717440! ftp://nicice-pips.co.uk/httpdocs
- git ftp push  --user trucknet_cb --passwd Jasmin717440! ftp://cbtransport-midlands.online/httpdocs
- git ftp push  --user baldwinsgrabhire --passwd Jasmin717440 ftp://baldwinsgrabhire.com/httpdocs
-
- curl https://www.prodigy-global.com/haulageplanner/library/cache/clearcache.php
- curl https://www.nicice-pips.co.uk/library/cache/clearcache.php
- curl https://cbtransport-midlands.online/library/cache/clearcache.php
- curl https://www.baldwinsgrabhire.com/library/cache/clearcache.php
-
- curl https://www.prodigy-global.com/haulageplanner/library/core/liquibase.php
- curl https://www.nicice-pips.co.uk/library/core/liquibase.php
- curl https://www.baldwinsgrabhire.com/library/core/liquibase.php
- curl https://cbtransport-midlands.online/library/core/liquibase.php
-
+git ftp push --user centralhydraulics --passwd Jasmin717440 ftp://185.132.40.138/httpdocs
